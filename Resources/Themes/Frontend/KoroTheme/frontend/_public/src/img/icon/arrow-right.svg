@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="50px" viewBox="0 0 26 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="koro" transform="translate(-441.000000, -432.000000)">
+            <g id="arrow-right" transform="translate(441.000000, 432.000000)">
+                <path d="M26,0 C11.848,0 0.375,11.193 0.375,25.001 C0.375,38.808 11.848,50 26,50 L26,0 Z" id="Fill-1" fill="#000000"></path>
+                <polygon id="Fill-3" fill="#FEFEFE" points="17.2725 26.4746 14.1555 23.3096 15.2755 22.2496 20.0005 27.2576 15.2595 32.2496 14.1555 31.1896 17.2895 28.0086 10.0005 28.0086 10.0005 26.4746"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

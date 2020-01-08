@@ -1,0 +1,29 @@
+.display-flex() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.display-inline-flex() {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.order(@ordernumber) {
+  -webkit-box-ordinal-group: @ordernumber;   /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-ordinal-group: @ordernumber;      /* OLD - Firefox 19- */
+  -ms-flex-order: @ordernumber;              /* TWEENER - IE 10 */
+  -webkit-order: @ordernumber;               /* NEW - Chrome */
+  order: @ordernumber;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.hyphens() {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}

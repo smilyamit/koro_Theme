@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="text">
+            <name>defaultDescriptionBanner</name>
+            <label>Default description-banner</label>
+            <label lang="de">Standard Beschreibungs-Banner</label>
+            <value></value>
+        </element>
+
+        <element type="text">
+            <name>defaultPriceHistoryBanner</name>
+            <label>Default price-history-banner</label>
+            <label lang="de">Standard Preishistorie-Banner</label>
+            <value></value>
+        </element>
+
+        <element type="text">
+            <name>defaultCompareBanner</name>
+            <label>Default comare-banner</label>
+            <label lang="de">Standard Vergleich-Banner</label>
+            <value></value>
+        </element>
+
+        <element type="text">
+            <name>defaultMasonryBanner</name>
+            <label>Default masonry-banner</label>
+            <label lang="de">Standard Masonry-Banner</label>
+            <value></value>
+        </element>
+
+        <element type="text">
+            <name>defaultBlogBanner</name>
+            <label>Default blog-banner</label>
+            <label lang="de">Standard Blog-Banner</label>
+            <value></value>
+        </element>
+
+        <element type="text">
+            <name>defaultFaqBanner</name>
+            <label>Default FAQ-banner</label>
+            <label lang="de">Standard FAQ-Banner</label>
+            <value></value>
+        </element>
+
+        <element type="text">
+            <name>defaultVoteBanner</name>
+            <label>Default Vote-banner</label>
+            <label lang="de">Standard Bewertungen-Banner</label>
+            <value></value>
+        </element>
+    </elements>
+</config>

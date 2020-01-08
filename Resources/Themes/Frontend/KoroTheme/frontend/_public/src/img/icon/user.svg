@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>user</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="koro" transform="translate(-119.000000, -428.000000)" stroke="#000000" stroke-width="1.2">
+            <g id="user" transform="translate(119.000000, 428.000000)">
+                <path d="M17.4004,19.9994 C17.4004,15.3594 13.6384,11.6014 9.0004,11.6014 C4.3614,11.6014 0.5994,15.3594 0.5994,19.9994" id="Stroke-1"></path>
+                <path d="M9,8.7631 C11.297,8.7631 13.16,6.9371 13.16,4.6821 C13.16,2.4271 11.297,0.6001 9,0.6001 C6.703,0.6001 4.84,2.4271 4.84,4.6821 C4.84,6.9371 6.703,8.7631 9,8.7631 Z" id="Stroke-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

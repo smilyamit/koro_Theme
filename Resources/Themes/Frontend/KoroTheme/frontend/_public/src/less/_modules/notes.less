@@ -1,0 +1,91 @@
+.content.note--content {
+  position: relative;
+  .account--welcome.panel {
+    .unitize(margin-bottom, 40);
+  }
+}
+
+.note--title {
+  font-weight: 500;
+  text-decoration: none;
+  font-family: 'axiformamedium';
+  .unitize(font-size, 16);
+  .unitize(margin-bottom, 5);
+  text-decoration: none !important;
+}
+
+.note--ordernumber, .note--compare, .note--supplier {
+  display: none;
+}
+
+.note--item {
+  border-color: #f4f4f4;
+  @media screen and (min-width: @phoneLandscapeViewportWidth) {
+    .unitize(padding-bottom, 25);
+  }
+  .product--rating {
+    letter-spacing: -1px;
+  }
+}
+
+.note--image-link, .note--delete {
+  border: 0;
+}
+
+.note--date {
+  font-family: 'axiformamedium';
+  .unitize(font-size, 12);
+  color: #b4b4b4;
+}
+
+.note--delivery {
+  .product--delivery {
+    .unitize(margin-top, 10);
+  }
+}
+
+.note--price {
+  font-family: 'axiformamedium';
+  font-weight: 500;
+}
+
+.note--price-unit {
+  .unitize(font-size, 11);
+  font-family: 'axiformamedium';
+  font-weight: 500;
+  color: #888888;
+  font-family: 'axiformamedium';
+  .is--strong {
+    font-weight: 500 !important;
+  }
+}
+
+.note--overview .panel--table {
+  background: transparent;
+  color: #fff;
+  -webkit-box-shadow: 0 5px 20px -1px rgba(0,0,0,0.06);
+  box-shadow: 0 5px 20px -1px rgba(0,0,0,0.06);
+  border-radius: 5px !important;
+  background: #fff;
+  border: 1px solid;
+  border-color: #f4f4f4;
+  .unitize-padding(20);
+  background: transparent;
+  color: #fff;
+
+  @media screen and (min-width: @phoneLandscapeViewportWidth) {
+    .unitize-padding(30);
+  }
+}
+
+@media screen and (min-width: @tabletLandscapeViewportWidth) {
+  .note--info {
+    width: 65%;
+  }
+  .note--sale {
+    width: 35%;
+  }
+  .note--details {
+    .unitize(padding-right, 20);
+  }
+}

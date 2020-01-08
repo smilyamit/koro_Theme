@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>cude</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="koro" transform="translate(-220.000000, -480.000000)" stroke-width="0.75" stroke="#000000">
+            <g id="cude" transform="translate(221.000000, 480.000000)">
+                <polygon id="Stroke-1" points="0.3748 3.5543 0.3748 12.2643 7.9218 15.4123 15.4698 12.2643 15.4698 3.5543 7.9218 0.4063"></polygon>
+                <polyline id="Stroke-3" points="0.5056 3.6798 7.9226 6.6958 15.3406 3.6798"></polyline>
+                <path d="M7.9216,6.7091 L7.9216,15.4551" id="Stroke-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

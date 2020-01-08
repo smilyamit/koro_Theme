@@ -1,0 +1,327 @@
+.emotion--product-slider {
+    .emotion--mode-rows & {
+        height: 100%;
+    }
+    .product-slider--content {
+        position: relative;
+    }
+    .box--emotion {
+        .product--image {
+            height: auto;
+            padding-bottom: 100%;
+        }
+    }
+}
+.emotion--product {
+    .emotion--mode-rows & {
+        height: 100%;
+    }
+    .product--box {
+        .product--image {
+            height: auto;
+            padding-bottom: 100%;
+        }
+    }
+}
+.emotion--category-teaser {
+    .emotion--mode-rows & {
+        height: 100%;
+    }
+}
+@media screen and(min-width: @tabletViewportWidth) {
+    .emotion--blog {
+        overflow: hidden;
+    }
+}
+
+
+.emotion--separator-left {
+  border-left: 1px solid #f4f4f4;
+}
+
+.quote-module {
+  border-left: 4px solid !important;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 !important;
+  padding-left: 25px !important;
+}
+
+.placeholder-module-50 {
+  margin-top: 50px;
+}
+
+.image-source-module {
+  margin-top: -10px !important;
+}
+
+.responsive-video iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.responsive-video {
+position: relative;
+padding-bottom: 56.25%; /* Default for 1600x900 videos 16:9 ratio*/
+padding-top: 0px;
+height: 0;
+overflow: hidden;
+}
+
+@media screen and (max-width: @tabletViewportWidth) {
+  .responsive-video {
+  width: 100vw;
+  position: relative;
+  max-width: 150%;
+  max-height: unset;
+  }
+  .is--ctl-blog .responsive-video {
+  margin-left: -20px;
+  }
+}
+
+.banner-module {
+  margin-top: 10px;
+}
+
+// Bekannt aus Banner Einkaufswelten, 07.18
+
+.emotion--featured-in {
+  margin: .625rem 0;
+  opacity: .7;
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .emotion--featured-in {
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+// Mosaik Banner, Biggy & Piran 08.18 DELETED 10.18
+
+// Emotion Full-Width Banner, Piran 09.18
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .emotion--fullwidth {
+    padding: 0px !important;
+    width: 100vw !important;
+    margin-left: ~"calc(50% - 50vw )" !important;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 100%;
+    &.emotion--element {
+      margin-left: ~"calc(50% - 50vw + 2px)" !important;
+    }
+  }
+  .is--act-index .emotion--wrapper {
+    overflow: visible;
+  }
+}
+
+.emotion--fullwidth {
+  .emotion--banner img, .emotion--banner-slider img {
+    width: 100%;
+  }
+}
+
+// Background Gradient, Piran 11.19
+
+.emotion--gradient {
+  .emotion--banner .banner--image:after , .emotion--banner-slider .banner-slider--banner:after {
+    border-radius: inherit;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(60%,transparent),to(rgba(0,0,0,.5)));
+    background-image: linear-gradient(180deg,transparent 60%,rgba(0,0,0,.5));
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .emotion--fullwidth .emotion--banner {
+    .unitize(max-width, 1920);
+    margin: 0 auto;
+  }
+}
+
+.piran--detail-image-container.emotion--fullwidth.piran--reviews img {
+  .unitize(min-height, 300);
+  object-fit: cover;
+  object-position: right;
+}
+
+.object-position-center .emotion--banner img, .emotion--fullwidth .emotion--banner-slider img {
+  object-position: center !important;
+}
+
+// Emotion Title, Piran 03.19
+
+.emotion--title {
+  position: relative;
+  display: block;
+  vertical-align: top;
+  .html--title.panel--title {
+    .unitize(font-size, 14);
+    color: #fff;
+    &.is--underline {
+      color: #fff;
+    }
+  }
+  &.emz-masonry-exception-title {
+    .unitize(margin-bottom, 0);
+  }
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(margin-bottom, 0);
+  }
+  .emotion--html {
+    z-index: 1001;
+    color: #fff;
+    .unitize-padding(0, 25, 25);
+    margin: 0 auto;
+    position: absolute;
+    height: auto;
+    display: block;
+    &.piran--detail-box {
+      .transform(translateY(~"calc(-100%)"));
+    }
+    h2 {
+      .unitize(font-size, 18);
+      .unitize(margin-bottom, 0);
+      color: #fff;
+    }
+    h3 {
+      .unitize(font-size, 16);
+      .unitize(margin-bottom, 0);
+      color: #fff;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0;
+      .unitize(margin-bottom, 0);
+      color: #fff;
+    }
+    background: transparent;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    .transform(translateY(~"calc(-100%)"));
+    &.emz-masonry-exception-html {
+      .transform(translateY(~"calc(-100% + 465px)"));
+    }
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize-padding(0, 0, 30);
+      &.piran--detail-box {
+        width: 100%;
+      }
+      h2 {
+        .unitize(font-size, 24);
+        .unitize(margin-bottom, 0);
+      }
+      h3 {
+        .unitize(font-size, 22);
+        .unitize(margin-bottom, 0);
+      }
+      &.emz-masonry-exception-html {
+        .transform(translateY(~"calc(370px - 100%)"));
+      }
+    }
+    @media screen and (min-width: @desktopViewportWidth) {
+      &.piran--detail-box {
+        left: 0;
+      }
+      &.emz-masonry-exception-html {
+        .transform(translateY(~"calc(470px - 100%)"));
+      }
+    }
+    .html--title {
+      padding-top: 0;
+    }
+    .html--content {
+      align-items: flex-end;
+      .display-flex();
+      justify-content: space-between;
+      p:last-child {
+        text-align: right;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        border-bottom: 2px solid;
+        font-family: 'axiformamedium';
+        .unitize(font-size, 12);
+        position: relative;
+        .unitize(bottom, 8);
+        .unitize(margin-left, 20);
+        @media screen and (min-width: @tabletViewportWidth) {
+          .unitize(font-size, 14);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: @tabletViewportWidth) {
+  .is--ctl-listing .emotion--html {
+    .transform(translateY(~"calc(-100%)"));
+  }
+  .is--ctl-listing .emotion--title {
+    margin-bottom: 0;
+  }
+}
+
+// Emotion Product, Piran 09.18
+
+.emotion--product {
+  padding: 3px;
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .emotion--product {
+    padding: 0;
+  }
+}
+
+.banner--mapping .banner--mapping-link .is--animated-circle {
+  border-radius: 50% !important;
+  i.icon--plus3 {
+    .unitize(font-size, 26) !important;
+    color: #fff !important;
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 32) !important;
+    }
+  }
+}
+
+// Rounded Edges
+.emotion--rounded-corner {
+  .unitize-padding(5);
+  .emotion--banner {
+    .unitize-padding(0, 20);
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize-padding(0);
+    }
+    .unitize(border-radius, 20) !important;
+    -webkit-box-shadow: 0 5px 20px -1px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 20px -1px rgba(0,0,0,0.1);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    border: 1px solid #f4f4f4;
+    &:hover {
+      -webkit-box-shadow: 0 7px 22px 0 rgba(0,0,0,0.1);
+      box-shadow: 0 7px 22px 0 rgba(0,0,0,0.1);
+      -webkit-transform: translate3d(0, -2px, 0);
+      transform: translate3d(0, -2px, 0);
+    }
+  }
+}

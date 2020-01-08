@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>cart-basket</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="koro" transform="translate(-492.000000, -440.000000)">
+            <g id="cart-basket" transform="translate(492.000000, 440.000000)">
+                <g id="Group-5">
+                    <path d="M17.5,35 C27.165,35 35,27.165 35,17.5 C35,7.835 27.165,0 17.5,0 C7.835,0 0,7.835 0,17.5 C0,27.165 7.835,35 17.5,35" id="Fill-1" fill="#000000"></path>
+                    <path d="M19.9551,11.7915 C19.9551,10.5055 18.8561,9.4635 17.5001,9.4635 C16.1441,9.4635 15.0451,10.5055 15.0451,11.7915" id="Stroke-3" stroke="#FEFEFE"></path>
+                </g>
+                <polygon id="Fill-6" fill="#FEFEFE" points="9.584 14.3574 12.021 25.5374 22.98 25.5374 25.416 14.3574"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

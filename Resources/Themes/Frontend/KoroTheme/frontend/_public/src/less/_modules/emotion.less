@@ -1,0 +1,817 @@
+.quote-module {
+  font-style: italic;
+  margin-top: 10px;
+  padding: 0 !important;
+  padding-left: 25px !important;
+  border-left: 2px solid #e4e4e4 !important;
+  margin-left: -25px;
+}
+
+.placeholder-module-50 {
+  .unitize(margin-top, 50);
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(margin-top, 100);
+  }
+}
+
+.placeholder-module-25 {
+  .unitize(margin-top, 25);
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(margin-top, 50);
+  }
+}
+
+.emotion--standalone-title .html--content.panel--body.is--wide h3 {
+  .unitize(margin-bottom, 20);
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(margin-bottom, 30);
+  }
+}
+
+.emotion--section-right {
+  border-right: 1px solid #f4f4f4;
+}
+
+.emotion--pre-headline {
+  .emotion--html .html--content.panel--body.is--wide p {
+    font-family: 'axiformamedium';
+    text-transform: uppercase;
+    color: #888888;
+    letter-spacing: 1px;
+    .unitize(font-size, 11);
+    .unitize-padding(0, 0, 5);
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 13);
+    }
+  }
+  &.first--pre-headline {
+    .emotion--html .html--content.panel--body.is--wide p {
+      padding-top: 0;
+    }
+  }
+}
+
+.emotion--section-end {
+  .unitize(margin-bottom, 50);
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(margin-bottom, 100);
+  }
+}
+
+.image-source-module {
+  margin-top: -10px !important;
+}
+
+// emotion blog block styling
+
+.emotion--blog {
+  overflow: visible;
+}
+
+.second-headline .html--content.panel--body.is--wide h1, .second-headline .html--content.panel--body.is--wide h2, .second-headline .html--content.panel--body.is--wide h3, .second-headline .html--content.panel--body.is--wide h4, .second-headline .html--content.panel--body.is--wide h5, .second-headline .html--content.panel--body.is--wide h6 {
+    margin: 0;
+}
+
+.emotion--blog .blog--entry-container {
+  padding: 0;
+  border-radius: 5px !important;
+  text-align: center;
+  background: #fff;
+  margin-right: 1.25rem;
+  -webkit-box-shadow: 0 5px 20px -1px rgba(0,0,0,.06);
+  box-shadow: 0 5px 20px -1px rgba(0,0,0,.06);
+  overflow: hidden;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.emotion--blog .blog--entry {
+    padding: 0;
+    border-radius: 5px !important;
+    text-align: center;
+    overflow: visible;
+}
+
+.emotion--blog .blog--container {
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
+.listing--content {
+    padding: 0;
+    margin: 0;
+}
+
+.emotion--blog-headline, .custom--blog-styling {
+  background: #f4f4f4;
+}
+
+.emotion--blog-last {
+  margin-bottom: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
+}
+
+.emotion--blog-headline {
+  margin-top: 2.5rem !important;
+  padding-top: 1.25rem !important;
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+
+  .custom--blog-styling {
+    padding-top: 0 !important;
+    padding-bottom: 1.25rem !important;
+    width: 100vw !important;
+    margin-left: ~"calc(50% - 50vw + .625rem)" !important;
+    margin-bottom: 3.5rem;
+    .emotion--blog {
+      max-width: 72.75rem;
+      margin: auto;
+    }
+    .blog--container.block-group {
+      margin-left: 8.33333%;
+      width: 83.33333%;
+      padding: 8px;
+      padding-bottom: 2.5rem;
+      padding-top: 0;
+    }
+  }
+
+  .emotion--blog-headline {
+    width: 100vw !important;
+    margin-left: ~"calc(50% - 50vw + .625rem)" !important;
+    margin-top: 2.5rem !important;
+    padding-top: 1.25rem !important;
+    .emotion--html.panel.has--border {
+      margin: auto;
+      max-width: 72.75rem;
+      padding: 0 10px;
+    }
+    .html--title.panel--title.is--underline {
+      margin-left: 8.33333%;
+      width: 83.33333%;
+    }
+    .html--content.panel--body.is--wide {
+      margin-left: 8.33333%;
+      width: ~"calc(83.33333% - 1.25rem)" ;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.emotion--blog .blog--title {
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  font-size: .75rem;
+  font-family: 'axiformamedium';
+  font-weight: 500;
+  background: #fff;
+  line-height: 1.7;
+  text-decoration: none !important;
+  padding: 0.75rem;
+  margin: 0;
+  @media screen and (min-width: @desktopViewportWidth) {
+    font-size: .875rem;
+  }
+}
+
+// Launch-Structure
+
+
+.emotion--blog .blog--image {
+  padding-bottom: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+
+@media screen and (min-width: @desktopViewportWidth) {
+  .emotion--blog .blog--entry-container:hover {
+    -webkit-box-shadow: 0 7px 22px 0 rgba(0,0,0,.06);
+    box-shadow: 0 7px 22px 0 rgba(0,0,0,.06);
+    -webkit-transform: translate3d(0,-2px,0);
+    transform: translate3d(0,-2px,0);
+    }
+}
+
+.emotion-blog--headline-mobile {
+    background: #fafafa;
+    margin-top: 1.25rem;
+}
+
+.emotion-blog--background {
+    background: #fafafa;
+    margin-bottom: 1.25rem;
+}
+
+// Emotion Structur, Piran 10.18
+@media screen and (max-width: @phoneLandscapeViewportWidth) {
+  .emotion--element .emotion--product-slider {
+    .product-slider--container.is--horizontal {
+      .product-slider--item {
+        width: 55% !important;
+        padding: 0;
+      }
+    }
+    .product-slider--arrow.is--horizontal {
+      &.arrow--next, &.arrow--prev {
+      margin: 0;
+      }
+    }
+  }
+}
+
+
+.emotion-dig-pub--shadow .dig-pub--layer .layer--content {
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);
+  border-radius: 5px !important;
+}
+
+.emotion-dig-pub--shadow .dig-pub--button {
+  text-align: center;
+}
+
+.emotion--first {
+  margin-top: -.625rem;
+}
+
+.margin-top {
+  margin-top: 1.875rem;
+}
+
+.padding-left {
+  padding-left: .3125rem !important;
+}
+
+.koro-instagram {
+    height: auto !important;
+}
+
+.koro-count {
+    font-family: 'axiformamedium' !important;
+    padding: 1.25rem !important;
+    text-align: center;
+    font-size: .875rem;
+    background: #fafafa !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-weight: 500 !important;
+    color: #000 !important;
+    border-radius: 5px !important;
+    @media screen and (min-width: @desktopViewportWidth) {
+      font-size: medium;
+    }
+    i, em {
+      margin-right: .3125rem;
+      margin-left: -.3125rem;
+    }
+    .collapse--toggler {
+      top: 35%;
+    }
+}
+
+.koro-collapse {
+    padding: 1.25rem 2.25rem;
+    padding-top: .625rem;
+    background: #fafafa;
+    font-size: medium;
+    border: 0;
+}
+
+// Countdown-section
+
+#clockdiv{
+  color: #000;
+  display: block;
+  .unitize(font-size, 28);
+  .unitize-padding(40, 0, 20);
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(font-size, 32);
+  }
+}
+
+#clockdiv > div{
+	display: inline-block;
+  padding: 0 .3125rem;
+  text-align: center;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  padding-bottom: 0;
+  position: relative;
+  display: contents;
+  font-family: 'axiformamedium';
+}
+
+#clockdiv .smalltext {
+  .unitize(font-size, 9);
+  font-family: 'axiformamedium';
+  color: #000;
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(font-size, 9);
+  }
+  &.clearfix-days {
+    position: relative;
+  }
+}
+
+#clockdiv .days {
+    .unitize(font-size, 60);
+}
+
+#clockdiv .koro-jumbo-days {
+  position: relative;
+}
+
+.fancy--slider .emotion--banner-slider .image-slider--dots {
+  bottom: 10%;
+}
+
+.fancy--slider .dig-pub--text:first-child {
+    margin-top: .125rem;
+}
+
+.fancy--slider .dig-pub--button {
+  text-align: left;
+  @media screen and (min-width: @tabletViewportWidth) {
+    margin-left: 2px;
+  }
+  a {
+    z-index: 9999;
+  }
+}
+
+.padding-top-5-rem {
+  padding-top: 5rem;
+}
+
+.campaign-product {
+  z-index: 1000;
+  .product--box .box--content .product--details {
+    .unitize(padding-bottom, 25);
+  }
+    .box--content {
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    position: relative !important;
+    border: 1px solid #f4f4f4;
+    overflow: hidden;
+    border-radius: 5px !important;
+    @media screen and (min-width: @tabletViewportWidth) {
+      -webkit-box-shadow: 0 5px 20px -1px rgba(0,0,0,.06);
+      box-shadow: 0 5px 20px -1px rgba(0,0,0,.06);
+      &:hover {
+        -webkit-box-shadow: 0 7px 22px 0 rgba(0,0,0,.06);
+        box-shadow: 0 7px 22px 0 rgba(0,0,0,.06);
+        -webkit-transform: translate3d(0,-2px,0);
+        transform: translate3d(0,-2px,0);
+      }
+      &:active {
+        -webkit-transform: scale3d(.95,.95,1);
+        transform: scale3d(.95,.95,1);
+      }
+    }
+  }
+}
+
+.emotion--new-section {
+  .unitize(margin-top, 50);
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(margin-top, 70);
+  }
+}
+
+// Gradient Picture on Custom Sites, 11.19 Piran
+
+.piran--hero-custom-inner.emotion--banner:before {
+  border-radius: inherit;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(60%,transparent),to(rgba(0,0,0,.5)));
+  background-image: linear-gradient(180deg,transparent 60%,rgba(0,0,0,.5));
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  @media screen and (min-width: @tabletViewportWidth) {
+    display: none;
+  }
+}
+
+.copyright-lena {
+  .emotion--digital-publishing:after {
+    content: "© Magdalena Luise Mielke / KoRo";
+    position: absolute;
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -ms-transform-origin: top right 0;
+    -moz-transform-origin: top right 0;
+    -webkit-transform-origin: top right 0;
+    transform-origin: top right 0;
+    font-family: 'axiformamedium';
+    .unitize(font-size, 9);
+    top: 15px;
+    right: 20px;
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 11);
+      top: 13px;
+      right: 24px;
+    }
+    color: #fff;
+    z-index: 1;
+  }
+  .emotion--banner:after {
+    content: "© Magdalena Luise Mielke / KoRo";
+    position: absolute;
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -ms-transform-origin: top right 0;
+    -moz-transform-origin: top right 0;
+    -webkit-transform-origin: top right 0;
+    transform-origin: top right 0;
+    font-family: 'axiformamedium';
+    .unitize(font-size, 9);
+    top: 15px;
+    right: 20px;
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 11);
+      top: 13px;
+      right: 24px;
+    }
+    color: #fff;
+    z-index: 1;
+  }
+}
+
+.copyright-koro {
+  .emotion--digital-publishing:after {
+    content: "© KoRo Handels GmbH";
+    position: absolute;
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -ms-transform-origin: top right 0;
+    -moz-transform-origin: top right 0;
+    -webkit-transform-origin: top right 0;
+    transform-origin: top right 0;
+    font-family: 'axiformamedium';
+    .unitize(font-size, 9);
+    top: 15px;
+    right: 20px;
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 11);
+      top: 13px;
+      right: 24px;
+    }
+    color: #fff;
+    z-index: 1;
+    white-space: nowrap;
+  }
+  .emotion--banner:after {
+    content: "© KoRo Handels GmbH";
+    position: absolute;
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -ms-transform-origin: top right 0;
+    -moz-transform-origin: top right 0;
+    -webkit-transform-origin: top right 0;
+    transform-origin: top right 0;
+    font-family: 'axiformamedium';
+    .unitize(font-size, 9);
+    top: 15px;
+    right: 20px;
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 11);
+      top: 13px;
+      right: 24px;
+    }
+    color: #fff;
+    white-space: nowrap;
+    z-index: 1;
+  }
+}
+
+.copyright-andrea {
+  .emotion--digital-publishing:after {
+    content: "© Andrea Formisano / KoRo";
+    position: absolute;
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -ms-transform-origin: top right 0;
+    -moz-transform-origin: top right 0;
+    -webkit-transform-origin: top right 0;
+    transform-origin: top right 0;
+    font-family: 'axiformamedium';
+    .unitize(font-size, 9);
+    top: 15px;
+    right: 20px;
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 11);
+      top: 13px;
+      right: 24px;
+    }
+    color: #fff;
+    z-index: 1;
+    white-space: nowrap;
+  }
+  .emotion--banner:after {
+    content: "© Andrea Formisano / KoRo";
+    position: absolute;
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -ms-transform-origin: top right 0;
+    -moz-transform-origin: top right 0;
+    -webkit-transform-origin: top right 0;
+    transform-origin: top right 0;
+    font-family: 'axiformamedium';
+    .unitize(font-size, 9);
+    top: 15px;
+    right: 20px;
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 11);
+      top: 13px;
+      right: 24px;
+    }
+    color: #fff;
+    z-index: 1;
+  }
+}
+
+.copyright-lena {
+  .emotion--digital-publishing:after {
+    content: "© Magdalena Luise Mielke / KoRo";
+    position: absolute;
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -ms-transform-origin: top right 0;
+    -moz-transform-origin: top right 0;
+    -webkit-transform-origin: top right 0;
+    transform-origin: top right 0;
+    font-family: 'axiformamedium';
+    .unitize(font-size, 9);
+    top: 15px;
+    right: 20px;
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 11);
+      top: 13px;
+      right: 24px;
+    }
+    color: #fff;
+    z-index: 1;
+    white-space: nowrap;
+  }
+  .emotion--banner:after {
+    content: "© Magdalena Luise Mielke / KoRo";
+    position: absolute;
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -ms-transform-origin: top right 0;
+    -moz-transform-origin: top right 0;
+    -webkit-transform-origin: top right 0;
+    transform-origin: top right 0;
+    font-family: 'axiformamedium';
+    .unitize(font-size, 9);
+    top: 15px;
+    right: 20px;
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 11);
+      top: 13px;
+      right: 24px;
+    }
+    color: #fff;
+    z-index: 1;
+  }
+}
+
+.copyright-hector {
+  .emotion--digital-publishing:after {
+    content: "© Hector Bermudez / KoRo";
+    position: absolute;
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -ms-transform-origin: top right 0;
+    -moz-transform-origin: top right 0;
+    -webkit-transform-origin: top right 0;
+    transform-origin: top right 0;
+    font-family: 'axiformamedium';
+    .unitize(font-size, 9);
+    top: 15px;
+    right: 20px;
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 11);
+      top: 13px;
+      right: 24px;
+    }
+    color: #fff;
+    z-index: 1;
+    white-space: nowrap;
+  }
+  .emotion--banner:after {
+    content: "© Hector Bermudez / KoRo";
+    position: absolute;
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -ms-transform-origin: top right 0;
+    -moz-transform-origin: top right 0;
+    -webkit-transform-origin: top right 0;
+    transform-origin: top right 0;
+    font-family: 'axiformamedium';
+    .unitize(font-size, 9);
+    top: 15px;
+    right: 20px;
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 11);
+      top: 13px;
+      right: 24px;
+    }
+    color: #fff;
+    z-index: 1;
+  }
+}
+
+// Campagin Same Height, Piran 05.19
+
+.campaign-right {
+  .emotion--banner .banner--content .banner--image .banner--image-src,
+  .emotion--digital-publishing .dig-pub .bg--image,
+  .emotion--banner-slider .banner-slider--container .banner-slider--slide .banner-slider--item .banner-slider--banner .banner-slider--image {
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(height, 550);
+      object-fit: cover;
+    }
+    @media screen and (min-width: @tabletLandscapeViewportWidth) {
+      .unitize(height, 600);
+    }
+  }
+  .emotion--banner .banner--content .banner--image:after,
+  .emotion--digital-publishing .dig-pub .bg--image:after,
+  .emotion--banner-slider .banner-slider--container .banner-slider--slide .banner-slider--item .banner-slider--banner:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(180deg,transparent 60%,rgba(0,0,0,.5));
+  }
+}
+
+.campaign-left {
+  padding: 0 !important;
+  margin-left: ~"calc(8.33333% + 5px)" !important;
+  .emotion--product, .emotion--product-slider {
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(height, 550);
+      .unitize-padding(60, 40, 0, 40);
+      object-fit: cover;
+      background: #f4f4f4;
+    }
+    @media screen and (min-width: @tabletLandscapeViewportWidth) {
+      .unitize(height, 600);
+    }
+   .product-slider--arrow {
+      background: transparent !important;
+    }
+  }
+  .emotion--product-slider .box--emotion {
+    .unitize(margin-bottom, 20);
+  }
+}
+
+.campaign-text {
+  height: 0px;
+  padding-bottom: 0 !important;
+  .emotion--html {
+    z-index: 1000;
+    .transform(translateY(~"calc(-100% - 25px)"));
+    .html--content.panel--body.is--wide {
+      .unitize-padding(10, 20);
+      color: #fff;
+      @media screen and (min-width: @tabletViewportWidth) {
+        .unitize-padding(0, 20, 0, 30);
+      }
+    }
+    .html--title.panel--title.is--underline {
+      @media screen and (min-width: @tabletViewportWidth) {
+        .unitize-padding(0, 10, 0, 20);
+      }
+    }
+  }
+}
+
+.podcast-left {
+  margin-left: ~"calc(50% - 50vw)" !important;
+  width: 50vw !important;
+  padding-left: 0 !important;
+  padding-bottom: 0 !important;
+  .emotion--banner .banner--image .banner--image-src {
+    .unitize(height, 450);
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+.fixed-height-600 {
+  .emotion--banner .banner--image .banner--image-src {
+    .unitize(height, 600);
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+.podcast-right {
+  margin-right: ~"calc(50% - 50vw)" !important;
+  width: 50vw !important;
+  padding-left: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.podcast-button {
+  .unitize(margin-right, 10);
+  .border-radius(50px) !important;
+  display: inline;
+  .unitize(width, 25);
+  .unitize(height, 25);
+  @media screen and (min-width: @tabletLandscapeViewportWidth) {
+    .unitize(width, 30);
+    .unitize(height, 30);
+  }
+  object-fit: contain;
+  .box-shadow(0px 0px 8px 0px rgba(0,0,0,0.15));
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  position: relative !important;
+  overflow: hidden;
+  border-radius: 50px !important;
+}
+
+.emotion-overflow-hidden .emotion--html.panel.has--border {
+  overflow: visible;
+  .podcast-button:hover {
+    -webkit-box-shadow: 0 7px 22px 0 rgba(0,0,0,0.06);
+    box-shadow: 0 7px 22px 0 rgba(0,0,0,0.06);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+  }
+}
+
+.podcast-mobile iframe {
+  .unitize-padding(10, 20, 0);
+}
+
+// Price-History Emotion, Piran 11.19
+
+.price-history-wrapper {
+  .unitize(padding-right, 15) !important;
+  .unitize(padding-left, 15) !important;
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(padding-right, 0) !important;
+    .unitize(padding-left, 0) !important;
+  }
+}
+
+// Miho Podcast Styling, Piran 11.19
+
+.miho-podcast-container {
+  .unitize-margin(0, 25, 10) !important;
+}
+
+.miho-podcast-image {
+    background-size: cover !important;
+}

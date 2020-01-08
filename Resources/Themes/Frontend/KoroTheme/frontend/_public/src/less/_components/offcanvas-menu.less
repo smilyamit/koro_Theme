@@ -1,0 +1,419 @@
+.navigation--headline, .offcanvas--overlay .overlay--category {
+  .unitize-margin(30, 20, 5, 20);
+  .unitize-padding(0);
+  .unitize(font-size, 11);
+  font-family: 'axiformamedium';
+  color: #888888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500 !important;
+}
+
+.offcanvas--overlay .overlay--category {
+  .unitize(margin-top, 8);
+}
+
+.offcanvas--overlay .is--back-button {
+  font-weight: 500;
+}
+
+.sidebar--navigation {
+    border: none;
+    .navigation--entry {
+        border-bottom: none;
+    }
+    &.shop-sites--navigation {
+        .navigation--entry {
+            &:last-child {
+                border-bottom: none !important;
+            }
+        }
+    }
+}
+
+
+//emz-changes
+
+.off-canvas {
+    &.frische, &.description-wrapper, &.reviews-wrapper, &.review-form-wrapper, &.image_table_section, &.blog--listing-container, &.huebert-comparison--inner {
+        position: fixed;
+        height: 100%;
+        padding: 0 !important;
+        width: 100% !important;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+
+        &.is--open {
+            -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75) !important;
+            -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75) !important;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75) !important;
+        }
+
+        &.show--offcanvas {
+            display: block;
+        }
+
+        .close--off-canvas {
+          text-decoration: none;
+          font-family: 'axiformamedium';
+          margin-bottom: 1.25rem;
+        }
+
+        .alert.is--warning.is--rounded {
+          margin: 1.25rem;
+          margin-top: 0;
+        }
+
+        .panel--title {
+            width: 100% !important;
+            margin: 0;
+        }
+    }
+}
+
+.js--off-canvas-button.section_first .panel--title.is--underline::before {
+    display: none;
+}
+
+.graph_span {
+    display: none;
+}
+
+.reviews_list, .review--form-container {
+    padding: 0;
+    margin: 0 auto;
+}
+
+div#detail--product-reviews.content--product-reviews {
+    padding: 0;
+    position: relative;
+}
+
+.product--details div.content--description {
+    padding: 0;
+}
+
+.section_first, .emotion--element.emz-usage, .reviews_list, .review--form-container, .product--produktspezifikationen, .blog--listing, .emz-faq-container, .huebert-comparison {
+    border: 0;
+    .panel--title.is--underline {
+        position: relative;
+
+        i {
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+            right: 0;
+            padding-right: 1.25rem;
+        }
+    }
+
+    .off-canvas {
+        .panel--title.is--underline {
+            font-size: 22px;
+            border: 0;
+            text-align: left;
+            padding: .625rem 1.25rem;
+            font-weight: 500;
+        }
+
+    }
+}
+
+.is--ctl-detail .product--details.single_product .section_first .description-container .product--ingredients {
+    padding: 0 !important;
+}
+
+.is--ctl-detail .product--details.single_product .product--base-info {
+    padding: 0 !important;
+}
+
+.reviews_list .review--entry {
+    &:first-child {
+        padding-top: 0;
+    }
+}
+
+.tab-menu--cross-selling {
+    .panel--title.is--underline.also_bought {
+        margin: 0 auto;
+    }
+}
+
+.is--ctl-detail .product--details.single_product .emotion--element.emz-usage .code_text {
+    font-size: small;
+}
+
+.tab-menu--cross-selling:not(.viewed_also) {
+    position: relative;
+}
+
+.section_first.js--off-canvas-button {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    .is--ctl-detail .product--details.single_product .product--produktspezifikationen .image_table_section .table_section {
+        padding-top: 0;
+    }
+    div#detail--product-reviews.content--product-reviews {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: @phoneLandscapeViewportWidth) {
+    .is--ctl-detail .product--details.single_product .product--base-info li.base-info--entry {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .section_first .panel--title i, .emotion--element.emz-usage .panel--title i, .reviews_list .panel--title i, .review--form-container .panel--title i, .product--produktspezifikationen .panel--title i, .blog--listing .panel--title i, .emz-faq-container .panel--title i, .huebert-comparison .panel--title i {
+    display: none;
+  }
+
+    .js--off-canvas-button.section_first .panel--title.is--underline::before {
+        display: block;
+    }
+
+    .graph_span {
+        display: block;
+    }
+
+    .section_first, .emotion--element.emz-usage, .reviews_list, .product--produktspezifikationen, .blog--listing, .huebert-comparison {
+        padding-bottom: 0 !important;
+    }
+
+    .is--ctl-detail .product--details.single_product div.emotion--element.emz-usage {
+        padding-bottom: 0px !important;
+    }
+
+    .product--details div.content--description {
+        .unitize-padding(10, 10);
+    }
+
+    .is--ctl-detail .product--details.single_product .section_first .description-container .product--ingredients {
+        padding: 0 30px 0 30px !important;
+    }
+
+    .reviews_list .review--entry {
+
+        &:first-child {
+            padding-top: 20px;
+        }
+    }
+
+    .product--details {
+        .tab-menu--product {
+            &:before, &:after {
+                display: none;
+            }
+        }
+    }
+
+    .tab-menu--cross-selling .panel--title.is--underline.also_bought {
+        width: auto !important;
+        top: 0 !important;
+    }
+
+    .is--ctl-detail .product--details.single_product .product--base-info {
+        padding: 15px 30px 0 30px !important;
+    }
+
+    .tab-menu--cross-selling:not(.viewed_also) {
+        top: 0;
+    }
+
+    .is--ctl-detail .product--details.single_product .description-container .product--base-info,
+    .is--ctl-detail .product--details.single_product .section_first .description-container .product--ingredients, {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: @tabletLandscapeViewportWidth) {
+    .is--ctl-detail .product--details.single_product .product--base-info li.base-info--entry {
+        width: 49%;
+    }
+
+    .is--ctl-detail .product--details.single_product .description-container .product--base-info,
+    .is--ctl-detail .product--details.single_product .section_first .description-container .product--ingredients {
+        width: 49%;
+    }
+
+    .is--ctl-detail .product--details.single_product .section_first .description-container .product--ingredients {
+        width: 59%;
+    }
+
+    .section_first div.panel--title.is--underline {
+        .unitize(padding-left, 15);
+    }
+
+    .is--ctl-detail .product--details.single_product .section_first .description-container .product--ingredients {
+        padding: 15px !important;
+        padding-top: 0 !important;
+        padding-right: 10% !important;
+    }
+
+    .is--ctl-detail .product--details.single_product .product--base-info {
+        padding: 15px !important;
+    }
+}
+
+.js--overlay {
+    background: rgba(0, 0, 0, 0.31);
+}
+
+.ajax--cart {
+    padding: 0 !important;
+
+    &:before {
+        display: none;
+    }
+}
+
+// Offcanvas Menu Recipe blocks
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .blog--listing .panel--title.is--underline.product-slider--title.code_title, .huebert-comparison .panel--title.is--underline {
+    padding-left: 30px;
+    padding-right: 30px;
+    &.pre-headline {
+      max-width: 72.75rem;
+      margin: auto;
+    }
+  }
+
+  .is--ctl-detail .panel--title.is--underline {
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+    letter-spacing: 1px;
+  }
+}
+
+.buttons--off-canvas {
+    display: none;
+}
+
+.navigation--smartphone {
+	.navigation--entry {
+		.unitize-padding(12, 10, 12, 10);
+		background: #fff;
+	}
+	.navigation--link {
+		display: block;
+	}
+
+	.entry--close-off-canvas {
+        .unitize-padding(2, 10);
+        .unitize(line-height, 38);
+		.secondary-gradient();
+
+		.navigation--link {
+			.clearfix();
+      .unitize(font-size, 14);
+			color: @gray-light;
+
+			&:active {
+				color: @gray;
+			}
+		}
+		.icon--arrow-right {
+			.unitize-margin(12, 0, 0, 0);
+            .unitize(font-size, 11);
+            float: right;
+		}
+	}
+}
+
+.off-canvas .close--off-canvas .icon--arrow-left {
+  .unitize(font-size, 9);
+}
+
+.sidebar--navigation .navigation--entry {
+  border: 0;
+  border-bottom: 1px solid #f4f4f4;
+  font-family: 'axiformamedium';
+  .unitize(font-size, 12);
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize-padding(10, 0);
+    border: 0;
+  }
+}
+
+.action--filter-options.off-canvas.is--left {
+    text-align: left;
+}
+
+.off-canvas {
+  .mobile--switches {
+    .unitize-padding(10);
+    .navigation--entry {
+      .unitize-margin(10);
+    }
+  }
+  .close--off-canvas, .navigation--entry.entry--close-off-canvas {
+    background: #fff;
+    color: #888888;
+    border-bottom: 1px solid #f4f4f4;
+    text-align: left;
+    text-decoration: none;
+    .unitize(font-size, 11);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'axiformamedium';
+    .unitize(line-height, 40);
+    .unitize(height, 42);
+    .navigation--link {
+      .unitize(font-size, 11);
+      .unitize-padding(3, 14);
+      color: #888888;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-family: 'axiformamedium';
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-decoration: none;
+
+      .icon--arrow-right {
+        .unitize(margin-top, 15);
+      }
+    }
+  }
+  .buttons--off-canvas, .navigation--entry.entry--close-off-canvas {
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      background: linear-gradient(180deg, rgba(0,0,16,0.05) 0, rgba(255,255,255,0));
+      transform: translateY(0);
+      height: 15px;
+      z-index: 1001;
+      width: 100%;
+    }
+  }
+}
+
+.off-canvas .sidebar--navigation .navigation--link {
+  text-decoration: none;
+  .unitize-padding(2, 15);
+}
+
+select.language--select {
+  box-shadow: none !important;
+}
+
+.off-canvas .navigation--entry.entry--close-off-canvas {
+  border-bottom: 0;
+}
+
+.offcanvas--overlay .overlay--category .category--headline {
+  font-weight: 500;
+  .unitize(font-size, 11);
+  color: #888888;
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(font-size, 13);
+  }
+}

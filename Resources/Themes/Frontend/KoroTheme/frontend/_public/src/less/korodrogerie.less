@@ -1,0 +1,1551 @@
+/* Less-file KoRo Drogerie | www.actualize.de | 06/2016 */
+
+.detailhinweisgrafiken {
+    min-height: 75px;
+}
+
+.detailhinweisgrafiken img {
+    float: left;
+}
+
+ul.product--base-info.list--unstyled {
+    margin-top: 0!important;
+    @media (max-width: 480px) {
+        margin-top: 10px !important;
+    }
+}
+
+.packstationhinweis {
+    background-color: #f2dede;
+    font-size: 18px;
+    line-height: 1.1rem;
+    height: auto;
+    padding: 10px 0 3px 7px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+/* entfernt, weil Titel abgeschnitten wurde
+body.is--ctl-index .emotion--product .product--box .product--title {
+    height:35px!important;
+}
+*/
+
+.product--box .product--title .customlanding {
+    .hClass (1) {
+        font-size: 30px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        text-align: center !important;
+        p {
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+    }
+    .hClass (2) {
+        font-size: 25px !important;
+        margin-bottom: 10px !important;
+    }
+    .img {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+.newsletterfooterhinweistext {
+    font-size: 12px;
+}
+
+.footer-main {
+    margin-bottom: -17px;
+}
+
+//Blog CSS Changes
+
+.blog--detail-images.block {
+  width: 100vw;
+  margin-left: ~"calc(50% - 50vw)";
+  .link--blog-image {
+    padding: 0;
+  }
+  img.blog--image.panel.has--border.is--rounded {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  @media screen and (min-width: @tabletViewportWidth) {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.blog--detail .blog--detail-thumbnails {
+  .blog--thumbnail-image {
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    padding: 0;
+    object-fit: cover;
+  }
+  text-align: center;
+  width: 100vw;
+  margin-left: ~"calc(50% - 50vw)";
+  .unitize(margin-bottom, 20);
+  white-space: nowrap;
+  overflow-x: scroll;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  @media screen and (min-width: @tabletLandscapeViewportWidth) {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: @tabletLandscapeViewportWidth) {
+  .blog--detail .blog--detail-image-container {
+    width: 100%;
+    margin: 0;
+    float: unset;
+  }
+}
+
+a.blog--thumbnail.panel.has--border.is--rounded.block {
+  float: unset;
+  display: inline-block;
+  .unitize(height, 80);
+  .unitize(width, 80);
+  .unitize-margin(5, 0);
+  &:first-child {
+    .unitize(margin-left, 20);
+  }
+  &:last-child {
+    .unitize(margin-right, 20);
+  }
+}
+
+.is--ctl-blog.is--act-index nav.content--breadcrumb.block {
+  background: #fafafa;
+  .unitize-padding(10, 25);
+}
+
+.is--ctl-blog .hero-unit.category--teaser.panel.has--border.is--rounded, .is--ctl-blog .hero--text.panel--body.is--wide {
+  background: #fafafa;
+  .unitize(padding-bottom, 40);
+}
+
+.is--ctl-blog .blog--content .blog--listing .hero--headline.panel--title, .is--ctl-blog h1.hero--headline.panel--title, .is--ctl-blog .hero--text.panel--body.is--wide {
+  display: block;
+  width: 100%;
+  .unitize(max-width, 1124) !important;
+  margin: 0 auto !important;
+  text-align: center;
+}
+
+.is--ctl-blog .hero-unit.category--teaser.panel.has--border.is--rounded {
+  margin-bottom: 0;
+}
+
+.is--ctl-blog .blog--listing {
+  margin-top: 0;
+}
+
+.is--ctl-blog .blog--content .blog--listing .hero--headline.panel--title {
+  .unitize(font-size, 32);
+  max-width: unset !important;
+  margin-left: ~"calc(50% - 50vw)" !important;
+  background: #fafafa;
+  text-align: center;
+  width: 100vw !important;
+}
+
+.is--ctl-blog .blog--subscribe.has--border.is--rounded.filter--group.block {
+  padding: 0;
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .blog--content .blog--listing {
+      width: 100%;
+  }
+  .is--ctl-blog.is--act-index nav.content--breadcrumb.block {
+    width: 100vw;
+    max-width: unset;
+    margin-left: ~"calc(50% - 50vw)";
+    padding: 0;
+    background: #fafafa;
+    .unitize(20);
+    ul.breadcrumb--list {
+      display: block;
+      width: 100%;
+      .unitize(max-width, 1124);
+      margin: 0 auto;
+      .unitize-padding(20, 0);
+    }
+  }
+  .is--ctl-blog.is--act-index .blog--subscribe.has--border.is--rounded.filter--group.block {
+    width: 100vw;
+    max-width: unset;
+    margin-left: ~"calc(50% - 50vw)";
+    .unitize(margin-bottom, 50);
+    &.navigation--entry .navigation--link {
+      .unitize(font-size, 13);
+    }
+    &.navigation--entry:first-child .navigation--link {
+      padding-left: 0 !important;
+    }
+    &.navigation--entry:last-child .navigation--link {
+      padding-right: 0 !important;
+    }
+    ul.blog--navigation-headlines.is--rounded {
+      display: block;
+      width: 100%;
+      text-align: center;
+      .unitize(max-width, 1124);
+      margin: 0 auto;
+      .unitize-padding(0);
+    }
+  }
+  .is--ctl-blog.is--act-index {
+    .blog--content {
+      margin-top: 0;
+    }
+  }
+  .is--ctl-blog .hero-unit.category--teaser.panel.has--border.is--rounded, .is--ctl-blog .hero--text.panel--body.is--wide {
+    width: 100vw;
+    max-width: unset;
+    margin-left: ~"calc(50% - 50vw)";
+    background: #fafafa;
+    margin-bottom: 0;
+  }
+  .is--ctl-blog .teaser--text-long {
+    .unitize(max-width, 700);
+    margin: 0 auto;
+  }
+  .is--ctl-blog .blog--content .blog--listing .hero--headline.panel--title {
+    .unitize(font-size, 50);
+  }
+}
+
+@media screen and (min-width: 48.063em) {
+    .blog--content .blog--filter-options {
+        display: none;
+    }
+}
+
+
+.is--ctl-blog .tipp--section {
+    padding: 2.25rem;
+    background: #f4f4f4;
+}
+
+.is--ctl-blog .tipp--section strong:first-child {
+  font-size: x-large;
+  text-transform: uppercase;
+  line-height: 1.8rem;
+}
+
+.blog--content .blog--listing .hero--headline.panel--title {
+  margin: 0;
+}
+
+.category--teaser .hero--text {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+a.blog--rating-link {
+    text-decoration: none;
+}
+
+.blog--detail-headline {
+  font-size: 32px !important;
+  .unitize-margin(25) !important;
+  line-height: 1.35;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.blog--box-metadata {
+    font-family: 'axiformamedium';
+    border: 0 !important;
+}
+
+.piran--blog-compare-topic {
+  .unitize-margin(0, 25);
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .piran--blog-compare-topic {
+    .unitize(font-size, 13);
+  }
+  .blog--detail-headline, .piran--blog-compare-topic {
+      margin-left: 16.6667% !important;
+      margin-right: 16.6667% !important;
+  }
+  .blog--detail-headline {
+    font-size: 50px !important;
+    overflow: visible;
+  }
+  .blog--box-description-short--detail-preview {
+      margin-left: 16.6667% !important;
+      margin-right: 16.6667% !important;
+      font-size: large;
+  }
+}
+
+.blog--box-description-short--detail-preview {
+  .unitize(margin-left, 25);
+  .unitize(margin-right, 25);
+  // font-family: 'axiformamedium';
+  font-size: medium;
+  .unitize(margin-bottom, 5);
+  line-height: 1.7;
+  // color: #888888;
+}
+
+.blog--crossselling .product--box.box--emotion.box--minimal {
+    width: 100%;
+    padding: 0;
+}
+
+@media screen and (max-width: @phoneLandscapeViewportWidth) {
+  .blog--crossselling {
+      .product-slider--item {
+      width: 50% !important;
+      padding: 0 !important;
+      overflow: visible;
+        .product--title {
+          margin-top: .3125rem !important;
+        }
+      }
+  }
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .blog--crossselling .product-slider--item {
+      width: 33% !important;
+  }
+}
+
+@media screen and (min-width: @desktopViewportWidth) {
+  .blog--crossselling .product-slider--item {
+      width: 25% !important;
+  }
+}
+
+@media screen and (max-width: @tabletViewportWidth) {
+  .blog--crossselling-headline {
+    &.panel--title.is--underline {
+    font-size: 16px !important;
+    .unitize-margin(20);
+    }
+    .product-slider--container.is--horizontal {
+      white-space: normal;
+    }
+  }
+  .blog--detail-tags.block {
+    .unitize-margin(25);
+    width: auto;
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize-margin(25, 0);
+    }
+  }
+}
+
+.blog--crossselling.panel--body.is--wide.block {
+    padding: 0;
+}
+
+a.product-slider--arrow.arrow--next.is--horizontal {
+    margin-right: -30px;
+    text-decoration: none;
+}
+
+.topseller {
+  a.product-slider--arrow.is--horizontal {
+    &.arrow--next {
+      margin-right: 0;
+    }
+    &.arrow--prev {
+      margin-left: 0;
+    }
+  }
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  a.product-slider--arrow.arrow--prev.is--horizontal {
+    margin-left: -30px;
+    text-decoration: none;
+  }
+}
+
+.product-slider.crossselling--content.panel--body.is--rounded {
+  padding-top: 0;
+}
+
+.blog--detail-tags.block a {
+  font-family: 'axiformamedium';
+  .unitize(font-size, 12);
+  color: #888888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  .unitize(margin-left, 3);
+}
+
+.blog--detail .blog--comments .content--headline {
+  font-family: 'axiformamedium';
+  font-weight: 500;
+}
+
+.blog--detail .blog--comments .entry--meta {
+    width: 35%;
+    font-family: 'axiformamedium';
+    text-align: left;
+}
+
+.blog--detail-tags.block {
+  .unitize-margin(25);
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize-margin(0);
+  }
+}
+
+.blog--bookmarks.block {
+  display: none;
+}
+
+// Blog First Letter, Piran 10.18
+
+.blog--detail-description>p:first-of-type::first-letter {
+  font-family: 'axiformamedium';
+  font-size: 83px;
+  line-height: 70px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 10px;
+  margin-right: 15px;
+  float: left;
+}
+
+//Blog listing
+
+.blog--box .blog--box-picture {
+  width: 100%;
+  position: relative;
+  .unitize(margin-bottom, 10);
+  img {
+    width: 100%;
+    object-fit: cover;
+    .unitize(height, 175);
+    @media screen and (min-width: @phoneLandscapeViewportWidth) {
+      .unitize(height, 220);
+    }
+  }
+}
+
+.blog--box-link {
+  display: block;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background: #fff;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  .unitize(font-size, 12);
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(font-size, 14);
+  }
+  padding: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none !important;
+  &.piran--blog-box-title {
+    font-family: 'axiformamedium';
+    .unitize(font-size, 16);
+    .unitize-padding(10, 0);
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize-padding(20, 0);
+    }
+  }
+}
+
+.blog--box .blog--box-headline {
+  line-height: 1rem;
+  display: inline-table;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: .875rem;
+  background: #fff;
+  width: 100%;
+}
+
+.blog--box.box-more.panel.has--border.is--rounded:last-child {
+  box-shadow: none;
+  transform: none;
+  width: 100%;
+  flex-basis: 100%;
+  margin-bottom: 0;
+}
+
+.blog--box.panel.has--border.is--rounded.box-more .blog--image-detail {
+  height: auto;
+}
+
+.blog--box-content.panel--body.is--wide.block {
+  padding: 0px;
+}
+
+.labels-wrapper {
+  .unitize(line-height, 12);
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  .blog-listing--label {
+    .unitize(font-size, 10);
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(font-size, 10);
+      .unitize(line-height, 18);
+    }
+    &:after {
+      content: ", ";
+      .unitize(font-size, 12);
+    }
+    &:last-child:after {
+      content: "";
+    }
+  }
+}
+
+.blog--detail {
+  margin-top: 0 !important;
+  .blog--comments-wrapper {
+    width: 100vw;
+    margin-left: ~"calc(50% - 50vw)";
+    .unitize-padding(0);
+    background: #f4f4f4;
+  }
+  .blog--comments {
+    .unitize(max-width, 1124);
+    margin: 0 auto;
+    .unitize-padding(25);
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize-padding(25, 0);
+    }
+  }
+}
+
+
+a.blog--box-link.piran--blog-box-short-description {
+    padding: 0;
+    .unitize(font-size, 13);
+    line-height: 1.7;
+}
+
+.blog--listing-container {
+  .display-flex();
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+}
+
+.emotion--blog .blog--listing-container {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  @media screen and (min-width: @tabletViewportWidth) {
+    overflow-x: hidden;
+  }
+  .blog--box.panel.has--border.is--rounded {
+    margin-bottom: 0;
+    .unitize(min-width, 300);
+    .blog--box-short-description {
+      margin-bottom: 0;
+    }
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(min-width, 200);
+    }
+  }
+}
+
+.blog--box.panel.has--border.is--rounded {
+  .unitize-padding(0, 25, 25);
+  width: 100%;
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+  .unitize(margin-bottom, 10);
+  @media screen and (min-width: @phoneLandscapeViewportWidth) {
+    width: 48%;
+    -webkit-flex-basis: 48%;
+    flex-basis: 48%;
+    .unitize(margin-bottom, 30);
+  }
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize-padding(0);
+    width: 30%;
+    -webkit-flex-basis: 30%;
+    flex-basis: 30%;
+    .unitize(margin-bottom, 30);
+  }
+  @media screen and (min-width: @tabletLandscapeViewportWidth) {
+    .unitize(margin-bottom, 40);
+  }
+  height: auto;
+  vertical-align: top;
+}
+
+.blog--crossselling .panel--title.is--underline.headline {
+  font-family: @font-headline-stack;
+  color: #000;
+  .unitize(font-size, 22);
+  .unitize(margin-top, 5);
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(font-size, 28);
+  }
+}
+
+.blog--crossselling .panel--title.is--underline.pre-headline {
+  .unitize(padding-top, 40);
+  color: #888888;
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(padding-top, 60);
+  }
+}
+
+
+//tablet & smaller devices
+
+// blog sidebar
+
+@media screen and (min-width: @tabletViewportWidth) {
+
+  .blog--filter-options.off-canvas {
+      padding: 0;
+      position: relative;
+      z-index: 0;
+  }
+
+  .blog--content .blog--filter-options .filter--group {
+      border: 0;
+      padding: 0 .625rem;
+  }
+
+  .blog--content .blog--navigation .blog--sidebar-title {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      text-transform: uppercase;
+      font-family: 'axiformamedium';
+      font-weight: 700;
+  }
+
+  .blog--content .blog--navigation .blog--sidebar-body {
+      padding-left: 0;
+  }
+
+  .blog--content .blog--filter-options .filter--entry {
+    font-family: 'axiformamedium';
+  }
+
+  .blog--sidebar .blog--navigation .collapse--content .filter--entry-link {
+      text-decoration: none;
+  }
+
+  .blog--sidebar .blog--navigation .collapse--content .filter--entry-link:hover {
+    border-bottom: 2px solid;
+  }
+
+  .blog--sidebar .blog--navigation .is--active {
+    border-bottom: 2px solid;
+    font-family: 'axiformamedium';
+  }
+
+}
+
+// CSS for the html-Element
+
+.rounded--blog-image {
+    width: 80% !important;
+    margin: auto !important;
+    border-radius: 20rem !important;
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .rounded--blog-image {
+      width: 50% !important;
+  }
+}
+
+// Label Styling, Piran 07.18
+
+@media screen and (min-width: @tabletLandscapeViewportWidth) {
+  .blog--detail-narrow-image {
+      max-width: 100% !important;
+      margin-left: 0 !important;
+      margin-bottom: 30px;
+  }
+}
+
+.blog--detail .blog--detail-description {
+    width: 100%;
+    width: 66.667%;
+    float: none;
+    margin: 0 auto;
+    .unitize(margin-bottom, 40);
+}
+
+.blog--detail-description p {
+    font-size: medium;
+}
+
+.blog--detail-description h3 {
+  font-family: 'axiformamedium';
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.blog--detail-description h2 {
+  font-family: 'axiformamedium';
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.blog--detail-description ul, ol {
+  font-size: medium;
+  margin-bottom: 1.25rem;
+}
+
+.blog--detail-description img, video {
+  .unitize(margin-top, 30);
+  .unitize(margin-bottom, 30);
+}
+
+@media screen and (max-width: @phoneLandscapeViewportWidth) {
+  .blog--detail-description img, video {
+    width: 100vw;
+    max-width: 100vw;
+    .unitize(margin-left, -25);
+  }
+  .blog--detail .blog--detail-description {
+    width: 100%;
+    .unitize-padding(0, 25);
+  }
+}
+
+
+
+//Blog blocks detail
+
+.panel--title.is--underline.product-slider--title.code_title.blog-detail--section {
+    padding:0 15px;
+    margin-bottom: 25px;
+}
+
+//sidebar subcategories
+
+.blog--subscribe.has--border.is--rounded.filter--group .navigation--link {
+  text-decoration: none;
+  font-family: 'axiformamedium';
+  letter-spacing: 1px;
+  color: #888888;
+  text-transform: uppercase;
+  .unitize-padding(10);
+  .unitize(font-size, 11);
+  .unitize-margin(20, 5);
+  &.is--active {
+    font-weight: 700;
+    color: #000;
+    border-color: #000;
+  }
+  &:hover {
+    color: #000;
+  }
+  @media screen and (min-width: @tabletLandscapeViewportWidth) {
+    .unitize-padding(10, 20);
+    .unitize-margin(20, 10);
+    .unitize(font-size, 13);
+    &:last-child {
+      .unitize(margin-right, 10);
+    }
+    &:hover {
+      color: #000;
+      border-color: #000;
+      -webkit-box-shadow: 0 7px 22px 0 rgba(0,0,0,0.06);
+      box-shadow: 0 7px 22px 0 rgba(0,0,0,0.06);
+      -webkit-transform: translate3d(0, -2px, 0);
+      transform: translate3d(0, -2px, 0);
+    }
+  }
+}
+
+@media screen and (min-width: @tabletLandscapeViewportWidth) {
+  .is--ctl-blog .blog--subscribe.has--border.is--rounded.filter--group.block {
+    border: 0 !important;
+    .unitize(margin-top, 20);
+  }
+}
+
+.blog--subscribe ul.sidebar--navigation.categories--navigation.navigation--list.is--drop-down.is--level0.is--rounded {
+  padding: 1.25rem 0;
+  position: relative;
+  top: -0.3125rem;
+}
+
+a.filter--trigger.btn.is--icon-left::before {
+    -webkit-transition: margin-top .4s cubic-bezier(.02, .01, .47, 1);
+    -moz-transition: margin-top .4s cubic-bezier(.02, .01, .47, 1);
+    -ms-transition: margin-top .4s cubic-bezier(.02, .01, .47, 1);
+    -o-transition: margin-top .4s cubic-bezier(.02, .01, .47, 1);
+    transition: margin-top .4s cubic-bezier(.02, .01, .47, 1);
+    width: 16px;
+    width: 1rem;
+    height: 16px;
+    height: 1rem;
+    right: 10px;
+    right: .625rem;
+    margin-top: -8px;
+    margin-top: -0.5rem;
+    font-size: 6px;
+    font-size: .375rem;
+    line-height: 16px;
+    line-height: 1rem;
+    font-family: 'shopware';
+    content: "\e612";
+    position: absolute;
+    text-align: center;
+    background: none;
+    color: inherit;
+    top: 50%;
+}
+
+// Offcanvas Blog
+
+.category--teaser .offcanvas--content .content--title {
+  font-family: @font-headline-stack;
+  .unitize(font-size, 28);
+  .unitize-margin(30, 0);
+}
+
+//subcategories
+
+.blog--subscribe .navigation--entry {
+  display: inline-block;
+  .display-inline-flex();
+  &:first-child {
+    .unitize(padding-left, 20);
+    @media screen and (min-width: @tabletViewportWidth) {
+      .unitize(padding-left, 0);
+    }
+  }
+}
+
+ul.blog--navigation-headlines {
+  display: inline;
+}
+
+.blog--sidebar .blog--navigation .collapse--header {
+  box-shadow: none;
+  .unitize-margin(10, 10, 0);
+  font-family: 'axiformamedium';
+  .unitize(font-size, 12);
+  .unitize-padding(10);
+  color: #000 !important;
+  background: #fff;
+  font-weight: 500;
+}
+
+.blog--sidebar .blog--navigation .filter--list .is--active {
+  .unitize-padding(10);
+}
+
+.blog--sidebar .blog--navigation .collapse--content {
+  .unitize-margin(0, 10);
+  box-shadow: none;
+  border-color: #bfbfbf;
+  .filter--entry {
+    .unitize(font-size, 13);
+    border: 0;
+    &:last-child {
+      .unitize(padding-bottom, 10);
+    }
+    &:first-child {
+      .unitize(padding-top, 10);
+    }
+  }
+  .filter--entry-link {
+    text-decoration: none;
+    a {
+      .unitize(font-size, 14);
+    }
+  }
+}
+
+.off-canvas .blog--filter-close-btn {
+  background: #fff;
+  color: #b4b4b4;
+  border-bottom: 1px solid #f4f4f4;
+  text-align: left;
+  text-decoration: none;
+  .unitize(font-size, 11);
+  font-weight: 500;
+  .unitize-padding(10, 20);
+  .unitize(height, 44);
+  .unitize(line-height, 27);
+  position: relative;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'axiformamedium';
+  i.icon--arrow-right {
+    .unitize(margin-top, 6);
+  }
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    .unitize(top, 44);
+    left: 0;
+    background: linear-gradient(180deg, rgba(0,0,16,0.05) 0, rgba(255,255,255,0));
+    transform: translateY(0);
+    height: 15px;
+    z-index: 1001;
+    width: 100%;
+  }
+}
+
+.blog--filter-options {
+  .blog--filter-close-btn {
+    &:hover {
+      color: #b4b4b4;
+    }
+  }
+  border: 0;
+   .filter--entry {
+     .unitize-padding(5, 10);
+   }
+  .filter--headline {
+    font-family: 'axiformamedium';
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #888888;
+    text-transform: uppercase;
+    .unitize(font-size, 12);
+    margin-bottom: 0;
+    .unitize(margin-top, 30);
+  }
+  .blog--filter-headline {
+    &.is--active {
+      color: #000 !important;
+      background: #fff;
+      font-weight: 500;
+      border: 1px solid #bfbfbf;
+      border-bottom: 0;
+    }
+  }
+}
+
+.is--ctl-blog {
+  .blog--subscribe.has--border.is--rounded.filter--group.block {
+    float: unset !important;
+    white-space: nowrap;
+    overflow-x: scroll;
+    border-top: 1px solid #f4f4f4;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    @media screen and (min-width: @tabletViewportWidth) {
+      overflow: hidden;
+    }
+    .navigation--entry:last-child .navigation--link {
+      .unitize(margin-right, 25);
+    }
+  }
+  .hero-unit.category--teaser.panel.has--border.is--rounded {
+    .unitize-padding(0, 25);
+  }
+  .blog--filter-btn {
+    .unitize-padding(0, 25);
+    .unitize-margin(0, 0, 20);
+  }
+}
+
+//news
+
+.navigation--entry.child-1 a.navigation--link::before {
+  content: "🌎";
+}
+
+//wissen
+
+.navigation--entry.child-2 a.navigation--link::before {
+  content: "📚";
+}
+
+//Tipps
+
+.navigation--entry.child-3 a.navigation--link::before {
+  content: "💡";
+}
+
+//Rezepte
+
+.navigation--entry.child-4 a.navigation--link::before {
+  content: "🍴";
+}
+
+//Interview
+.navigation--entry.child-5 a.navigation--link::before {
+  content: "🎭";
+}
+
+//Diverses
+.navigation--entry.child-6 a.navigation--link::before {
+  content: "🙌";
+}
+
+//???
+
+.navigation--entry.child-7 a.navigation--link::before {
+  content: "👀";
+}
+
+
+//Plugins styling
+
+.paypal-express {
+  width: 100%;
+}
+
+.paypal-express .paypal-express--btn {
+  height: auto;
+  background: #009cde;
+  border: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.ajax--cart .paypal-express .paypal-express--delimiter {
+    width: 100% !important;
+    text-align: center;
+    margin: 0 !important;
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .paypal-express {
+    width: 25%;
+  }
+}
+
+.paypal-express--delimiter {
+  font-family: 'axiformamedium';
+  width: 100% !important;
+  font-size: .75rem;
+  text-align: center;
+  margin: 0 !important;
+  line-height: 1.7 !important;
+  margin-bottom: .3125rem !important;
+}
+
+.is--ctl-checkout.is--act-cart .product--table .paypal-express {
+  margin-bottom: .3125rem !important;
+}
+
+//art-edition Piran, 07.18
+
+.art-edition--container-wrapper {
+    width: 100vw;
+    position: relative;
+    max-width: 100%;
+    max-height: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.art-edition--box-container {
+    flex-basis: 18%;
+    margin-bottom: 1.25rem;
+}
+
+.art-edition--image {
+    padding-bottom: 100%;
+    background-repeat: no-repeat;
+    background-color: #f4f4f4;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    line-height: 0;
+}
+
+.art-edition--image-title {
+    font-size: .875rem;
+    font-family: 'axiformamedium';
+    font-weight: 500;
+    text-align: center;
+    margin-top: .625rem;
+}
+
+.art-edition--box-container {
+    flex-basis: 48%;
+    margin-bottom: 1.25rem;
+    border-radius: 5px !important;
+    -webkit-box-shadow: 0 5px 20px -1px rgba(0,0,0,.06);
+    box-shadow: 0 5px 20px -1px rgba(0,0,0,.06);
+    border-radius: 3px;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.art-edition--image-container {
+    .unitize-padding(25);
+    background: #f4f4f4;
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .art-edition--container-wrapper {
+    max-width: 150%;
+    margin-left: -25%;
+    justify-content: space-evenly;
+ }
+  .art-edition--box-container {
+      flex-basis: 23%;
+  }
+  .art-edition--box-container:hover {
+    -webkit-box-shadow: 0 7px 22px 0 rgba(0,0,0,.06);
+    box-shadow: 0 7px 22px 0 rgba(0,0,0,.06);
+    -webkit-transform: translate3d(0,-2px,0);
+    transform: translate3d(0,-2px,0);
+  }
+  .art-edition--image:hover {
+    cursor: pointer;
+    opacity: .7;
+  }
+}
+
+// Digital Publishing Button class, Piran 07.18
+
+.db-pub--button .bg--color {
+  min-height: 2.5rem !important;
+}
+
+// Category Teaser hero text, Piran 07.18
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .is--ctl-listing .category--teaser .hero--text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .is--ctl-listing .category--teaser .hero--headline {
+    margin: 0;
+  }
+}
+
+// Abomodul Piran, 07.18
+
+.abo--discount-label {
+  font-weight: 500;
+}
+
+//Table styling, Fiona Sicher 23.08.2018
+
+.is--ctl-blog .blog--detail-description {
+  table {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+    width: 100% !important;
+  }
+  thead tr td {
+    border: 0 !important;
+    font-family: 'axiformamedium';
+  }
+  td {
+    font-size: .875rem;
+    border: 0;
+    border-top: 1px solid #dadada;
+    font-size: .875rem;
+    @media screen and (min-width: @tabletViewportWidth) {
+      font-size: medium;
+    }
+    background: #fff;
+    font-weight: 500;
+    text-align: left;
+    color: #000;
+    p {
+      margin: 0;
+      font-size: .875rem;
+      @media screen and (min-width: @tabletViewportWidth) {
+        font-size: medium;
+      }
+    }
+  }
+}
+
+// Collapse Cart Plugin Styling, Piran 10.18
+
+.aggregation--list .entry--totalnet {
+    display: none;
+}
+
+.ajax--cart .aggregation--list {
+  border-bottom: 0;
+}
+
+//XXL button, Fiona 10.18
+.xxl--button {
+  margin-left: auto !important;
+  font-size: 22pt !important;
+  width: 700px !important;
+  height: 100px !important;
+  margin-right: auto !important;
+}
+
+
+// Styling Forms & Custom Sites, Piran 10.18
+
+.forms--content p, .forms--content li, .forms--content, .forms--content .panel--body {
+  font-size: medium;
+  overflow: visible;
+}
+
+.content--custom p, .content--custom li, .content--custom, .content--custom .panel--body {
+  font-size: medium;
+}
+
+.ajax-modal--custom .panel--title.is--underline {
+  .unitize-padding(30);
+  padding-bottom: 0;
+  border: 0;
+  font-family: @font-headline-stack;
+  font-size: xx-large;
+  letter-spacing: 0;
+  text-transform: unset;
+  color: #000;
+}
+
+
+// Advanced Menu Styling, Piran 10.18
+
+.advanced-menu {
+  .button-container {
+    background: #b4b4b4;
+  }
+  .button--category, .item--level-0 .menu--list-item-link, .advanced-menu-teaser--headline-main {
+    font-family: 'axiformamedium';
+    font-weight: 500;
+  }
+  .advanced-menu-teaser--text-main {
+    line-height: 1.7;
+  }
+}
+
+// Advanced Search Stylin, Piran 10.18
+
+#netzp-search-content {
+  .unitize(padding-top, 15);
+  background: #fff;
+  border: 1px solid #f4f4f4;
+  border-top: 0;
+  text-align: center;
+  @media screen and (min-width: @tabletViewportWidth) {
+    border: 0;
+  }
+}
+
+.results--list .price--unit {
+  color: #b4b4b4;
+}
+
+.results--list .entry--name {
+  font-family: 'axiformamedium';
+  font-weight: 500 !important;
+  text-align: left;
+}
+
+.results--list .entry--media {
+  .unitize(height, 40) !important;
+}
+
+#netzp-search-content input.netzp-tab:checked + label.tablabelajax,
+#netzp-search-content input.netzp-tab:checked + label.tablabel {
+  background: #fff;
+  color: #000;
+  border-color: #000;
+  curser: pointer;
+  .badge {
+    background: #000;
+  }
+}
+
+#netzp-search-content label.tablabelajax,
+#netzp-search-content label.tablabel {
+  .unitize(margin-left, 4);
+  .unitize(margin-top, 4);
+  border: 1px solid #e6e6e6;
+  border-radius: 3px !important;
+  font-family: 'axiformamedium';
+  height: auto;
+  curser: pointer;
+  .unitize(font-size, 11);
+  .unitize-padding(2, 4);
+  color: #888888;
+  &:hover {
+    border-color: #000;
+    .badge {
+      background: #000;
+    }
+  }
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(font-size, 14);
+    .unitize-padding(5, 10);
+    .unitize(margin-left, 10);
+    .unitize(margin-top, 10);
+  }
+}
+
+#netzp-search-content input.netzp-tab:checked + label.tablabelajax,
+#netzp-search-content input.netzp-tab:checked + label.tablabel:hover {
+  border-color: #000;
+  text-align: center;
+  curser: pointer;
+  .badge {
+    background: #000;
+  }
+}
+
+input.netzp-tab:checked {
+  border-color: #000;
+  curser: pointer;
+}
+
+#netzp-search-content .badge {
+  font-family: 'axiformamedium';
+  margin: 0;
+  font-weight: 500;
+  border-radius: 35px !important;
+  background: #b4b4b4;
+}
+
+label.tablabelajax {
+  cursor: pointer;
+}
+// Styling Organic Logo, Biggy 10.18
+
+.organic-logo-de {
+  position: absolute;
+  border: 0;
+  .unitize(width, 70) !important;
+  top: 20%;
+  left: 5%;
+  border-radius: 0 !important;
+  z-index: 1;
+}
+
+.organic-logo-eu {
+  position: absolute;
+  border: 0;
+  .unitize(width, 70) !important;
+  top: 20%;
+  left: 5%;
+  border-radius: 0 !important;
+  z-index: 1;
+}
+
+.organic-logo-de-box {
+  z-index: 1;
+  .unitize(width, 50) !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+}
+
+.organic-logo-eu-box {
+  z-index: 1;
+  .unitize(width, 50) !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+}
+
+// Blog Author Image Styling
+
+// Default
+.piran--meta-data-container {
+  .display-flex();
+  .unitize-margin(25);
+}
+
+.blog--detail .blog--detail-header {
+  .unitize(margin-bottom, 0);
+}
+
+.piran--author-image-container {
+  .unitize(width, 50);
+  .unitize(height, 50);
+}
+
+.blog--box .blog--box-metadata {
+  .unitize(font-size, 11);
+  color: #b4b4b4;
+}
+
+span.blog--metadata-author.blog--metadata.is--first {
+  display: block;
+  .unitize(margin-bottom, 10);
+  color: #000;
+  .unitize(font-size, 12);
+  border: 0;
+}
+
+.blog--box .blog--box-metadata .blog--metadata {
+  .unitize(margin-right, 5);
+}
+
+img.piran--author-image {
+  border-radius: 100px !important;
+  .unitize(width, 100);
+  .unitize(height, 100);
+  object-fit: cover;
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .piran--meta-data-container {
+    margin-left: 16.6667%;
+    margin-right: 16.6667%;
+    justify-content: flex-start;
+  }
+  .piran--author-image-container {
+    .unitize(width, 60);
+    .unitize(height, 60);
+  }
+  .blog--box .blog--box-metadata {
+    .unitize(font-size, 12);
+    .unitize(padding-top, 8);
+    .unitize(margin-left, 20);
+  }
+  span.blog--metadata-author.blog--metadata.is--first {
+    .unitize(font-size, 14);
+  }
+}
+
+.koro-delivery-modal{
+  text-align: center;
+}
+
+// CSS Styling Class for Blog Articles, Piran 08.2019
+
+.blog--hero-image {
+  width: 100vw !important;
+  max-width: unset !important;
+  object-fit: cover;
+  margin-left: ~"calc(50% - 50vw)" !important;
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(max-height, 500) !important;
+  }
+}
+
+// Shipping Free Badge Styling, Piran 11.2019
+
+.product--box .product--badges .product--badge {
+  -webkit-box-shadow: 0 7px 22px 0 rgba(0,0,0,0.06);
+  box-shadow: 0 7px 22px 0 rgba(0,0,0,0.06);
+  -webkit-transform: translate3d(0, -2px, 0);
+  transform: translate3d(0, -2px, 0);
+  border-radius: 3px !important;
+  border: none !important;
+}
+
+.product--box .product--badges {
+
+    .badge--shipping-free {
+      color: #fff;
+      background: #f1e767; /* Old browsers */
+      background: -moz-linear-gradient(-45deg, #f1e767 0%, #feb645 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(-45deg, #f1e767 0%,#feb645 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(135deg, #f1e767 0%,#feb645 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+      .unitize(font-size, 9);
+      font-family: 'axiformamedium';
+      font-weight: 500;
+      line-height: normal;
+
+      @media screen and (min-width: @tabletViewportWidth) {
+        .unitize(font-size, 11);
+      }
+    }
+}
+
+// Notification Bar Styling, Piran 11.19
+
+.customBanner--content {
+  display: none;
+  @media screen and (min-width: @tabletLandscapeViewportWidth) {
+    display: block;
+    p {
+      .unitize-margin(5, 0);
+    }
+  }
+}
+
+.customBanner {
+  .customBanner--item {
+    .unitize-padding(10, 25)
+  }
+  @media screen and (min-width: @tabletLandscapeViewportWidth) {
+    .container {
+      .unitize-padding(0, 20);
+    }
+  }
+}
+
+.customBanner--controls {
+  margin: 0;
+  .customBanner--cta {
+    text-align: left;
+  }
+  .customBanner--close {
+    text-align: right;
+    .unitize(margin-top, 14);
+    @media screen and (min-width: @tabletLandscapeViewportWidth) {
+      .unitize(margin-top, -8);
+      .unitize(right, 25);
+    }
+    icon {
+      .unitize(font-size, 13);
+    }
+  }
+}
+
+// Blog Copyright Hotfix, Piran 11.19
+
+.is--ctl-blog .copyright-koro .emotion--banner:after {
+  font-size: 10px;
+  right: -10px;
+}
+
+// NoteBuy Hotfix, Piran 11.19
+
+button.notebuy.buybox--button.btn.is--primary.is--center {
+  .unitize(margin-top, 30);
+  display: inline-block;
+  .unitize(margin-left, 95);
+  position: relative;
+  @media screen and (min-width: @tabletLandscapeViewportWidth) {
+    .unitize(margin-left, 105);
+  }
+}

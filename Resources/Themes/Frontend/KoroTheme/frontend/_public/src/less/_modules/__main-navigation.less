@@ -1,0 +1,45 @@
+.navigation-main .is--active .navigation--link {
+  background: #fff;
+  color: #000;
+  font-weight: 300;
+  border-bottom: 2px solid;
+  display: inline;
+}
+
+.navigation-main .navigation--link {
+    font-family: 'axiformamedium';
+    padding: 0;
+}
+
+.navigation-main .navigation--link:hover {
+    border-bottom: 2px solid;
+    color: #000 !important;
+    display: inline;
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+    .navigation--list-wrapper {
+        position: relative;
+        -webkit-column-count: 1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 1;
+        /* Firefox */
+        column-count: 1;
+    }
+    .navigation-main {
+        .navigation--list {
+            width: 100%;
+            -webkit-column-count: 1;
+            /* Chrome, Safari, Opera */
+            -moz-column-count: 1;
+            /* Firefox */
+            column-count: 1;
+            white-space: normal;
+            padding: 0 1.25rem;
+        }
+        .navigation--entry {
+            display: inline-block;
+            padding: 0 1.5rem 1.25rem 0;
+        }
+    }
+}

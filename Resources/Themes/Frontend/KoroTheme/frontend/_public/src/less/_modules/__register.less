@@ -1,0 +1,84 @@
+//register checkout Piran, 05.18
+
+.steps--content .steps--entry {
+    font-family: 'axiformamedium';
+    padding: 0;
+}
+
+.register--content .birthday--label {
+    font-weight: unset;
+    font-family: 'axiformamedium';
+}
+
+.steps--content.panel--body {
+    width: 75%;
+    padding: 0;
+    padding-top: .625rem;
+}
+
+.steps--content .steps--entry {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.steps--content .steps--entry .text {
+  width: 80%;
+  height: auto;
+  top: 0;
+}
+
+.steps--entry.steps--spacer {
+  width: 7%;
+  font-size: .66rem;
+  display: table-cell;
+}
+
+.steps--content .steps--entry .text--inner, .steps--content .steps--entry .text::after {
+  font-size: .66rem;
+  text-align: left;
+}
+
+.steps--content .steps--entry .icon {
+  width: 2rem;
+  height: 2.25rem;
+  font-size: 1rem;
+  padding: .3125rem;
+  background: #dadada;
+}
+
+.steps--content .steps--entry.is--active .icon {
+  background: #000;
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .steps--content.panel--body {
+      width: 70%;
+      padding: 0;
+      padding-top: 10px;
+  }
+  .steps--content .steps--entry .text {
+    width: 50%;
+    top: -2px;
+  }
+
+  .steps--content.panel--body.center {
+    width: 70%;
+  }
+  .steps--entry.steps--spacer {
+    width: 5%;
+    font-size: .875rem;
+  }
+  .steps--content .steps--entry {
+    text-align: left;
+  }
+  .steps--content .steps--entry .text--inner, .steps--content .steps--entry .text::after {
+    vertical-align: bottom;
+    font-size: .875rem;
+  }
+  .steps--content .steps--entry .icon {
+    width: 2.85rem;
+    height: 3.4rem;
+    font-size: 1.25rem;
+    padding: .625rem 1rem .625rem 1rem;
+  }
+}

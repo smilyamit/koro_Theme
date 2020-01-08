@@ -1,0 +1,21 @@
+.last-seen-products {
+    .last-seen-products--title {
+        border-bottom: 3px solid @panel-border;
+        .unitize(font-size, 26);
+        text-align: center;
+        font-family: @font-headline-stack;
+        font-weight: @font-bold-weight;
+        margin: 0 auto;
+        text-transform: uppercase;
+    }
+}
+.last-seen-products--container {
+    .unitize-padding(10, 0, 0);
+}
+@media screen and(min-width: @tabletViewportWidth) {
+    .last-seen-products {
+        .last-seen-products--title {
+            .unitize(font-size, 36);   
+        }
+    }
+}

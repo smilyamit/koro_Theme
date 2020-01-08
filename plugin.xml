@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label>Korodrogerie Theme</label>
+    <label lang="de">Korodrogerie Theme</label>
+    <version>1.9.4</version>
+    <copyright>(c) Goltfisch GmbH</copyright>
+    <license>proprietary</license>
+    <link>http://8mylez.com</link>
+    <author>8mylez</author>
+
+    <compatibility minVersion="5.2.0" />
+
+    <changelog version="1.9.4">
+        <changes>
+            <![CDATA[
+            - Fix the compatibility with the banner-mapping plugin in banner sliders.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            - Behebe die Kompatibilität mit Banner-Mapping Plugin in Banner Slidern.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.9.3">
+        <changes>
+            <![CDATA[
+            - Fix a bug with wrong thumbnails in emotion-worlds.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            - Behebe einen Bug mit falschen Thumbnails in den Einkaufswelten.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.9.2">
+        <changes>
+            <![CDATA[
+            - Fix a bug with wrong thumbnails in listing.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            - Behebe einen Bug mit falschen Thumbnails im Listing.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.9.1">
+        <changes>
+            <![CDATA[
+            - Styling adjustments.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            - Styling-Anpassungen.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.9.0">
+        <changes>
+            <![CDATA[
+            - Add pre-header notification bar.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            - Füge Pre-Header Notification-Leiste hinzu.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.9.0">
+        <changes>
+            <![CDATA[
+            - Add new styles.
+            - Add filter to sidebar.
+            - Add review functionalities.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            - Füge neue Designs hinzu.
+            - Füge Filterfunktion in der Sidebar hinzu.
+            - Füge Bewertungsfunktionalitäten hinzu.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.8.0">
+        <changes>
+            <![CDATA[
+            - Add new lazyloading placeholders.
+            - Add additional product video.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            - Füge neue lazyloading-Platzhalter ein.
+            - Füge neues Produkt-Video hinzu.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.7.7">
+        <changes>
+            <![CDATA[
+            Remove amazonpay buttons
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Amazonpay buttons entfernt
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.7.6">
+        <changes>
+            <![CDATA[
+            Fix a bug with lazy-loading.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Behebe einen Lazy-Loading-bug.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.7.5">
+        <changes>
+            <![CDATA[
+            Add Amazon-Pay bugfix.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Behebe Amazon Pay Kompatibilität.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.7.4">
+        <changes>
+            <![CDATA[
+            Use all thumbnails for article-emotion-component.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Benutze alle Thumbnails für das Artikel-Einkaufswelten-Element.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.7.3">
+        <changes>
+            <![CDATA[
+            Fix a bug with blog-translations.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Behebe einen Bug mit Blog-Übersetzungen.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.7.2">
+        <changes>
+            <![CDATA[
+            Fix a bug, where empty blog-articles were displayed in emotion-worlds because of missing translations.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Behebe einen Bug bei dem leere Blogartikel in der Einkaufswelt angezeigt wurden wegen fehlender Übersetzungen.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.7.1">
+        <changes>
+            <![CDATA[
+            - Added attribute to hide marked countries.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            - Freitextfeld zum Länder verstecken hinzugefügt.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.7.0">
+        <changes>
+            <![CDATA[
+            Add Wishlist & some major Styling Changes.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Wunschzettel hinzugefügt und größere Styling-Änderungen.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.6.3">
+        <changes>
+            <![CDATA[
+            Fix a bug with emotion-banner-images.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Behebe einen Fehler bei den emotion-banner-bildern.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.6.2">
+        <changes>
+            <![CDATA[
+            Fix snippet-spelling.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Ändere falschen Snippet-Text.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.6.1">
+        <changes>
+            <![CDATA[
+            Finetuning.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Finetuning.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.6.0">
+        <changes>
+            <![CDATA[
+            Design Changes.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Designanpassungen.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.5.4">
+        <changes>
+            <![CDATA[
+            Fix a smarty-bug in the article-compare-tab.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Designanpassungen.
+            Behebe einen Smarty-Bug in der Vergleichssektion.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.5.3">
+        <changes>
+            <![CDATA[
+            Add bugfix for Price History Tooltip
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Bugfix Tooltip für Preis-Historie
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.5.2">
+        <changes>
+            <![CDATA[
+            Add a fix for lazyloading-emotion-worlds.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Anpassung für LazyLoading der Einkaufswelten-Bilder.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.5.1">
+        <changes>
+            <![CDATA[
+            Add support for lazyloading images in emotion-world-elements.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            LazyLoading für Bilder in Einkaufswelten.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.5.0">
+        <changes>
+            <![CDATA[
+            Finetuning.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Grundsätzliches Verfeinern des Themes.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.4.4">
+        <changes>
+            <![CDATA[
+            Remove a block to fix a unit-price-bug.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Entferne einen Block, um einen Bug bei den Unit-Preisen zu beheben.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.4.3">
+        <changes>
+            <![CDATA[
+            Add styling fixes and other fixes.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Füge CSS-Änderungen hinzu und Weiteres.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.4.2">
+        <changes>
+            <![CDATA[
+            Add offcanvas-button and other fixes.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Füge offcanvas-button hinzu und weiteres.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.4.1">
+        <changes>
+            <![CDATA[
+            Add banner-image for comare- and blog-tabs.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Füge Banner für den Vergleichs- und Blog-Tab hinzu.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.4.0">
+        <changes>
+            <![CDATA[
+            Add some styling adjustments for new theme.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Füge einige Anpassung für das neue Theme hinzu.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.3.0">
+        <changes>
+            <![CDATA[
+            Add banner-elements to all tabs.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Füge Banner für jeden Tab hinzu.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.2.0">
+        <changes>
+            <![CDATA[
+            Add new theme.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Füge neues Theme hinzu.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.1.0">
+        <changes>
+            <![CDATA[
+            Add emz_description_banner attribute.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Füge emz_description_banner Freitextfeld hinzu.
+            ]]>
+        </changes>
+    </changelog>
+
+    <changelog version="1.0.0">
+        <changes>
+            <![CDATA[
+            Initial release.
+            ]]>
+        </changes>
+        <changes lang="de">
+            <![CDATA[
+            Erste Veröffentlichung.
+            ]]>
+        </changes>
+    </changelog>
+
+    <description>
+        <![CDATA[
+        <b>Korodrogerie Theme</b>
+        ]]>
+    </description>
+    <description lang="de">
+        <![CDATA[
+        <b>Korodrogerie Theme</b>
+        ]]>
+    </description>
+</plugin>

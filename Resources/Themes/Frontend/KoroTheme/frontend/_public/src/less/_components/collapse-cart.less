@@ -1,0 +1,141 @@
+//collapse-cart styling
+.off-canvas .ajax--cart .cart--item .item--price {
+    float: none;
+    display: inline-block;
+    font-family: 'axiformamedium';
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.off-canvas .ajax--cart .button--container .button--checkout {
+  background: #b3d3af;
+  background: -moz-linear-gradient(-45deg, #b3d3af 0%, #639e5e 100%);
+  background: -webkit-linear-gradient(-45deg, #b3d3af 0%,#639e5e 100%);
+  background: linear-gradient(135deg, #b3d3af 0%,#639e5e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3d3af', endColorstr='#639e5e',GradientType=1 );
+  &:hover {
+    background: #639e5e;
+  }
+}
+
+.piran-ajax-item-container {
+    display: block !important;
+    float: none !important;
+}
+
+.ajax--cart .cart--item .item--quantity {
+  font-family: 'axiformamedium';
+  font-weight: 500;
+}
+
+.off-canvas .ajax--cart .cart--item {
+  border-color: #f4f4f4;
+    &.is--empty {
+    text-align: center;
+    .unitize(font-size, 18);
+    line-height: 1.25;
+    font-family: @font-headline-stack;
+    @media screen and (min-width: @tabletViewportWidth ) {
+      .unitize(font-size, 24);
+    }
+  }
+}
+
+.off-canvas .ajax--cart .cart--item .item--link {
+  .unitize(font-size, 13);
+  @media screen and (min-width: @tabletViewportWidth ) {
+    .unitize(font-size, 14);
+    .unitize(width, 210);
+  }
+}
+
+.off-canvas .ajax--cart .item--container {
+  border: 0;
+  .unitize(margin-top, 20);
+  .unitize-padding(0, 20);
+}
+
+.ajax--cart p.item--name {
+  font-size: .875rem;
+  font-family: 'axiformaheavy';
+  line-height: 1.25rem;
+}
+
+a.close--off-canvas {
+    font-weight: 500 !important;
+}
+
+.off-canvas .ajax--cart .prices--container {
+  .unitize-padding(20);
+}
+
+.ajax--cart .prices--container .prices--tax {
+  font-family: 'axiformamedium';
+  color: #b4b4b4;
+  font-size: .66rem;
+  text-align: left;
+}
+
+.off-canvas .ajax--cart .action--container *[class*="icon--"]:hover {
+    font-size: 12px;
+}
+
+.ajax--cart .paypal-unified-ec--button-container {
+  margin-bottom: 10px;
+  margin-bottom: .625rem;
+  border-radius: 5px !important;
+  overflow: hidden;
+  float: none;
+}
+
+.off-canvas .ajax--cart .button--container .button--open-basket {
+  padding-right: 0;
+  .unitize-margin(10, 0);
+  color: #000;
+  background: #fff;
+  box-shadow: rgba(0,0,0,0.1) 0px 2px 4px;
+  transition: box-shadow 200ms ease-in 0s;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ebebeb;
+  &:hover {
+    background: #fff;
+    box-shadow: rgba(0,0,0,0.1) 0px 2px 4px, rgba(26,26,29,0.08) 0px 4px 12px;
+  }
+}
+
+@media screen and (min-width: @tabletViewportWidth ) {
+  .container--ajax-cart.off-canvas {
+    width: 22.5rem;
+  }
+}
+
+//collapse cart, voucher field, Piran, 07.18
+
+.ajax--cart .voucher--container .add-voucher--field.is--medium.block {
+  font-family: 'axiformalight';
+  width: 80% !important;
+}
+
+.ajax--cart .voucher--container .add-voucher--button {
+  margin: 0 !important;
+  background: #000;
+  color: #fff;
+  border-radius: 0 .3125rem .3125rem 0 !important;
+}
+
+.ajax--cart .voucher--container {
+  margin-bottom: 2.25rem;
+  .unitize-padding(20) !important;
+  .voucher-text {
+    .unitize(padding-bottom, 10) !important;
+  }
+}
+
+// Ajax Removal Loading Circle, Piran 07.18
+
+.off-canvas .ajax--cart .action--container *[class*="icon--"] {
+  margin: .5625rem 0rem 0rem 0rem;
+  margin-left: auto;
+  margin-right: auto;
+}
